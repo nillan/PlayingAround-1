@@ -49,13 +49,13 @@ public class DisplayMessageActivity extends ActionBarActivity {
 	    
 	    LinearLayout viewGroup = new LinearLayout(this);
 	    viewGroup.setOrientation(1);
-	    //viewGroup.addView(textView1);
-	    //viewGroup.addView(textView2);
-	    //viewGroup.addView(textView3);
-	    //viewGroup.addView(textView4);
+	    viewGroup.addView((View) textView1);
+	    //viewGroup.addView((View) textView2);
+	    //viewGroup.addView((View) textView3);
+	    //viewGroup.addView((View) textView4);
 
 	    // Set the text view as the activity layout
-	    setContentView(textView5);
+	    setContentView(viewGroup);
 	}
 
 	@Override
